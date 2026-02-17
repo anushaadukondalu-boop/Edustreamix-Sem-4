@@ -147,12 +147,12 @@ channels:[
 
 const data = {
 
-"B.Com General - Semester 4": [
+"B.Com General ": [
 ...commonLanguages,
 ...sem4Core
 ],
 
-"B.Com Honors - Semester 4": [
+"B.Com Honors ": [
 ...commonLanguages,
 {
 name:"Human Resource Management",
@@ -165,7 +165,7 @@ channels:[
 ...sem4Core
 ],
 
-"B.Com Computer Applications - Semester 4": [
+"B.Com Computer Applications ": [
 ...commonLanguages,
 ...sem4Core,
 {
@@ -181,7 +181,7 @@ channels:[
 }
 ],
 
-"B.Com Business Analytics - Semester 4": [
+"B.Com Business Analytics ": [
 ...commonLanguages,
 ...sem4Core,
 {
