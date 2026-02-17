@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+    text-align: center;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 350px;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+.back-btn {
+    background: #e74c3c;
+}
+
+.back-btn:hover {
+    background: #c0392b;
+}
+
+.hidden {
+    display: none;
+}
