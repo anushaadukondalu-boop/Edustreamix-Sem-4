@@ -1,0 +1,176 @@
+body{
+margin:0;
+font-family:'Segoe UI', sans-serif;
+font-size:16px;
+background:linear-gradient(135deg,#fdfbfb,#ebedee);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+/* SPLASH */
+#splash{
+position:fixed;
+width:100%;
+height:100%;
+background:linear-gradient(135deg,#a1c4fd,#c2e9fb);
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:9999;
+animation:fadeOut 2.5s forwards;
+}
+
+.splash-title{
+font-size:38px;
+font-weight:bold;
+color:#4f46e5;
+letter-spacing:3px;
+animation:zoomIn 1.5s ease;
+}
+
+@keyframes zoomIn{
+from{transform:scale(0.5);opacity:0;}
+to{transform:scale(1);opacity:1;}
+}
+
+@keyframes fadeOut{
+0%{opacity:1;}
+90%{opacity:1;}
+100%{opacity:0;visibility:hidden;}
+}
+
+/* APP */
+.app-container{
+width:100%;
+max-width:500px;
+height:95vh;
+background:#ffffff;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,0.1);
+display:flex;
+flex-direction:column;
+overflow:hidden;
+}
+
+/* HEADER */
+.app-header{
+text-align:center;
+padding:20px;
+background:#eef2ff;
+}
+
+.app-header h1{
+margin:0;
+color:#4338ca;
+font-size:24px;
+}
+
+.app-header p{
+margin:5px 0 0;
+color:#555;
+}
+
+/* NAV BUTTONS */
+.top-controls{
+display:flex;
+justify-content:space-between;
+padding:10px 15px;
+background:#f3f4f6;
+}
+
+.nav-btn{
+padding:8px 14px;
+border:none;
+border-radius:20px;
+cursor:pointer;
+font-weight:600;
+background:#c7d2fe;
+color:#1e3a8a;
+transition:0.3s;
+}
+
+.nav-btn:hover{
+background:#a5b4fc;
+}
+
+.exit-btn{
+background:#fecaca;
+color:#7f1d1d;
+}
+
+.exit-btn:hover{
+background:#fca5a5;
+}
+
+/* SCREEN */
+.screen{
+flex:1;
+padding:20px;
+overflow-y:auto;
+display:none;
+}
+
+.screen.active{
+display:block;
+}
+
+/* CARD */
+.card{
+display:flex;
+align-items:center;
+gap:15px;
+padding:16px;
+margin-bottom:15px;
+background:#f9fafb;
+border-radius:18px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+cursor:pointer;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-3px);
+background:#e0e7ff;
+}
+
+.icon{
+font-size:22px;
+}
+
+.title{
+font-weight:600;
+color:#374151;
+}
+
+/* PLAYLIST BUTTON */
+.playlist-btn{
+display:block;
+text-align:center;
+padding:14px;
+background:#bfdbfe;
+color:#1e3a8a;
+border-radius:18px;
+text-decoration:none;
+font-weight:600;
+margin-top:15px;
+transition:0.3s;
+}
+
+.playlist-btn:hover{
+background:#93c5fd;
+}
+
+/* HEADINGS */
+h2{
+text-align:center;
+color:#4f46e5;
+margin-bottom:15px;
+}
+
+h3,h4{
+text-align:center;
+color:#6366f1;
+margin:8px 0;
+}
